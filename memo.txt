@@ -1,0 +1,15 @@
+https://41c5c60dfb624e7695ee382718a03168.vfs.cloud9.us-east-2.amazonaws.com/login
+https://41c5c60dfb624e7695ee382718a03168.vfs.cloud9.us-east-2.amazonaws.com/admin/news/create
+https://41c5c60dfb624e7695ee382718a03168.vfs.cloud9.us-east-2.amazonaws.com/admin/news/edit
+https://41c5c60dfb624e7695ee382718a03168.vfs.cloud9.us-east-2.amazonaws.com/admin/profile/create
+https://41c5c60dfb624e7695ee382718a03168.vfs.cloud9.us-east-2.amazonaws.com/admin/profile/edit
+
+
+ cd ~/environment/mynews
+ php artisan serve --port=8080
+
+git add .
+git commit -m 'メッセージ'
+git push
+git push origin main:main
+
