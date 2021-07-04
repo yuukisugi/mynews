@@ -1,5 +1,5 @@
 @extends('layouts.profile')
-@section('title', 'ニュースの新規作成')
+@section('title', 'プロフィールの新規作成')
 
 @section('content')
     <div class="container">
@@ -18,7 +18,7 @@
                     <div class="form-group row">
                         <label class="col-md-2">名前</label>
                         <div class="col-md-10">
-                            <input type="text" class="form-control" name="title" value="{{ old('title') }}">
+                            <input type="text" class="form-control" name="name" value="{{ old('name') }}">
                         </div>
                     </div>
                     <div class="form-group row">

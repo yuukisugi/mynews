@@ -10,6 +10,16 @@ https://41c5c60dfb624e7695ee382718a03168.vfs.cloud9.us-east-2.amazonaws.com/admi
 
 git add .
 git commit -m 'メッセージ'
-git push
 git push origin main:main
 
+->nullable()
+
+データベースの確認
+sudo mysql -u root　// mysqにログインする
+show databases;　// データベース一覧を表示する
+use mynews;　//　マイニュースを選択する
+show tables;　// テーブル一覧を表示する
+show columns from profiles;　//　プロフィールテーブルの構造を確認する
+select * from news;　//　ニューステーブルに入っているレコードを表示する
+select * from profiles;　//　プロフィールテーブルに入っているレコードを表示する
+quit;　//　終了
