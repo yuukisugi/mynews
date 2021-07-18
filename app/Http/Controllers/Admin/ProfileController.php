@@ -34,15 +34,15 @@ class ProfileController extends Controller
       return redirect('admin/profile/create');
   }
    
-    public function edit()
-    {
-        return view('admin.profile.edit');
-    }
+    // public function edit()
+    // {
+    //     return view('admin.profile.edit');
+    // }
 
-    public function update()
-    {
-        return redirect('admin/profile/edit');
-    }
+    // public function update()
+    // {
+    //     return redirect('admin/profile/edit');
+    // }
     public function index(Request $request)
   {
       $cond_title = $request->cond_title;
@@ -62,14 +62,14 @@ class ProfileController extends Controller
       if (empty($profile)) {
         abort(404);    
       }
-      return view('admin.news.edit', ['profile_form' => $profile]);
+      return view('admin.profile.edit', ['profile_form' => $profile]);
   }
 
 
   public function update(Request $request)
   {
       // Validationをかける
-      $this->validate($request, News::$rules);
+      $this->validate($request, Profile::$rules);
       // News Modelからデータを取得する
       $profile = Profile::find($request->id);
       // 送信されてきたフォームデータを格納する
