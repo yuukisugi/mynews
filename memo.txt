@@ -23,3 +23,8 @@ show columns from profiles;　//　プロフィールテーブルの構造を確
 select * from news;　//　ニューステーブルに入っているレコードを表示する
 select * from profiles;　//　プロフィールテーブルに入っているレコードを表示する
 quit;　//　終了
+
+amazonaws.com/ のあとに直接入力
+
+https://41c5c60dfb624e7695ee382718a03168.vfs.cloud9.us-east-2.amazonaws.com/
+https://41c5c60dfb624e7695ee382718a03168.vfs.cloud9.us-east-2.amazonaws.com/news
