@@ -6,7 +6,7 @@ https://41c5c60dfb624e7695ee382718a03168.vfs.cloud9.us-east-2.amazonaws.com/admi
 
 
  cd ~/environment/mynews
- php artisan serve --port=8080
+php artisan serve --port=8080 
 
 git add .
 git commit -m 'メッセージ'
